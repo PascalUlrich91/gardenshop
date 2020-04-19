@@ -1,19 +1,81 @@
-.hp_categories {
-    margin: 15px 0 0 0;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.hp_categories_block {
-    padding: 30px!important;
-    background-color: #fafafa;
-    border-right: 1px solid rgb(236, 236, 236);
-}
-
-.hp_categories_block:hover {
-    background-color: #00d1b2;
-}
-
-.hp_categories_box:hover {
-    color: #888;
-}
+        .button.is-primaryNew {
+            background-color: #00C37A;
+            border-color: transparent;
+            color: #fff;
+        }
+        
+        .padding16 {
+            padding: 16px;
+        }
+        
+        .opacity70 {
+            opacity: 70%;
+        }
+        
+        .greenbg {
+            border-radius: 0 0 4px 4px;
+            background-color: #00C37A;
+        }
+        
+        .button.is-primaryNew:hover {
+            background-color: #0FD685;
+            border-color: transparent;
+            color: #fff;
+        }
+        
+        .bg-img {
+            /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/header.jpg);
+    background-repeat: no-repeat;*/
+        }
+        
+        .hp_categories {
+            margin: 15px 0 0 0;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .hp_categories_block {
+            padding: 30px!important;
+            background-color: #fafafa;
+            border-right: 1px solid rgb(236, 236, 236);
+            animation: flyintoright .4s backwards;
+            transition: all .2s ease-in-out;
+        }
+        
+        .hp_categories_block-noBoarder {
+            padding: 30px!important;
+            background-color: #fafafa;
+            animation: flyintoright .4s backwards;
+            transition: all .2s ease-in-out;
+        }
+        
+        .hp_categories_block:hover {
+            background-color: #00C37A;
+        }
+        
+        .hp_categories_block-noBoarder:hover {
+            background-color: #00C37A;
+        }
+        
+        .hp_categories_box:hover {
+            color: #888;
+        }
+        
+        .is-shady:hover {
+            box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
+            border-radius: 4px;
+        }
+        
+        .is-shady {
+            animation: flyintoright .4s backwards;
+            transition: all .2s ease-in-out;
+            border-radius: 4px;
+        }
+        
+        .sandbox {
+            padding: 5rem 0;
+        }
+        
+        body {
+            background-color: #EFF3F4;
+        }
